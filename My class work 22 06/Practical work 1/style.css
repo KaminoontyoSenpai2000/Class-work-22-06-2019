@@ -1,0 +1,66 @@
+.one {
+	margin-left: 800px;
+	margin-top: 50px;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	text-align: center; 
+	background-color: red;
+	transform: scale(2) translate(10px, 10px) skewX(20deg) skewY(30deg);
+	transition-property: transform;
+	transition-duration: 3s;
+	transition-timing-function: ease-in;
+}
+
+.one:hover {
+	transform: translate(100px, 100px);
+
+}
+
+.two {
+	margin-left: 800px;
+	margin-top: 100px;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	text-align: center; 
+	background-color: green;
+	transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+.three {
+	margin-left: 800px;
+	margin-top: 20px;
+	height: 100px;
+	width: 100px;
+	border-radius: 10%;
+	text-align: center; 
+	background-color: blue;
+	transition-property: width;
+	transition-duration: 3s;
+	transition-timing-function: ease-in;
+	transition-delay: 1s;
+}
+
+.three:hover {
+	width: 400px;
+}
+
+.four {
+	background-color: yellow;
+	margin-top: 100px;
+	margin-left: 600px;
+	height: 200px;
+	width: 200px;
+	border-radius: 5%;
+	text-align: center; 
+	transition-property: transform: rotate scale;
+	transition-duration: 20s;
+	transition-timing-function: linear;
+
+}
+
+.four:hover {
+	
+	transform: rotate(180000deg) scale(3);
+}
